@@ -50,6 +50,8 @@
   <title>php-hotel</title>
 </head>
 <body>
-  
+  <div>
+      <?php foreach($hotels as $hotel) :echo $hotel['name'] ; endforeach; ?>
+  </div>
 </body>
 </html>
